@@ -1,0 +1,230 @@
+STATUS | wrapper  | 2022/04/28 19:43:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/04/28 19:43:34 | Launching a JVM...
+INFO   | jvm 1    | 2022/04/28 19:43:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/04/28 19:43:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/04/28 19:43:36 | 
+INFO   | jvm 1    | 2022/04/28 19:43:36 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 1    | 2022/04/28 19:43:36 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/04/28 19:43:36 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=gafrDWovNBVNUg6e -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16224 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/04/28 19:43:36 | Extensions classpath:
+INFO   | jvm 1    | 2022/04/28 19:43:36 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/04/28 19:43:36 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/04/28 19:43:36 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/04/28 19:43:36 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/04/28 19:43:36 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/04/28 19:43:37 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/04/28 19:43:39 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\PC03\apache-activemq-5.17.0-bin (1)\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/04/28 19:43:39 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\PC03\apache-activemq-5.17.0-bin (1)\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-53563-1651193019928-0:1) is starting
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/04/28 19:43:40 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4271fffb{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/04/28 19:43:41 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/04/28 19:43:41 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/04/28 19:43:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-53563-1651193019928-0:1) started
+INFO   | jvm 1    | 2022/04/28 19:43:41 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/04/28 19:43:42 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/04/28 19:43:42 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/05/06 23:37:05 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/05/06 23:37:06 | Launching a JVM...
+INFO   | jvm 1    | 2022/05/06 23:37:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/05/06 23:37:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/05/06 23:37:08 | 
+INFO   | jvm 1    | 2022/05/06 23:37:08 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 1    | 2022/05/06 23:37:08 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/05/06 23:37:08 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=cwMGvlsYeifsL0r7 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=22320 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/05/06 23:37:08 | Extensions classpath:
+INFO   | jvm 1    | 2022/05/06 23:37:08 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/05/06 23:37:08 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/05/06 23:37:08 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/05/06 23:37:08 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/05/06 23:37:08 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/05/06 23:37:09 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/05/06 23:37:11 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/05/06 23:37:11 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/05/06 23:37:11 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/05/06 23:37:11 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-55968-1651898232003-0:1) is starting
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/05/06 23:37:12 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@46636d87{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/05/06 23:37:13 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/06 23:37:13 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/05/06 23:37:13 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-55968-1651898232003-0:1) started
+INFO   | jvm 1    | 2022/05/06 23:37:13 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/05/06 23:37:15 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/05/06 23:37:15 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/05/07 00:02:23 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/05/07 00:02:24 | Launching a JVM...
+INFO   | jvm 1    | 2022/05/07 00:02:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/05/07 00:02:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/05/07 00:02:26 | 
+INFO   | jvm 1    | 2022/05/07 00:02:26 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 1    | 2022/05/07 00:02:26 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/05/07 00:02:26 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=nEDbHZu8aW1d__yW -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16012 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/05/07 00:02:26 | Extensions classpath:
+INFO   | jvm 1    | 2022/05/07 00:02:26 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/05/07 00:02:26 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/05/07 00:02:26 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/05/07 00:02:26 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/05/07 00:02:26 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/05/07 00:02:28 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/05/07 00:02:32 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/05/07 00:02:32 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-56610-1651899753394-0:1) is starting
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/05/07 00:02:33 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 00:02:34 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/05/07 00:02:34 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/05/07 00:02:34 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/05/07 00:02:34 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@3fd10502{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/05/07 00:02:35 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 00:02:35 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/05/07 00:02:35 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-56610-1651899753394-0:1) started
+INFO   | jvm 1    | 2022/05/07 00:02:35 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/05/07 00:02:37 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/05/07 00:02:37 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2022/05/07 00:02:44 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/05/07 00:42:37 |  INFO | Connector vm://localhost stopped
+ERROR  | wrapper  | 2022/05/07 01:13:44 | JVM exited unexpectedly.
+STATUS | wrapper  | 2022/05/07 01:13:49 | Launching a JVM...
+INFO   | jvm 2    | 2022/05/07 01:13:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2022/05/07 01:13:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2022/05/07 01:13:50 | 
+INFO   | jvm 2    | 2022/05/07 01:13:50 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 2    | 2022/05/07 01:13:50 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 2    | 2022/05/07 01:13:50 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=HF2wrCO52YxktSt6 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16012 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2022/05/07 01:13:50 | Extensions classpath:
+INFO   | jvm 2    | 2022/05/07 01:13:50 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 2    | 2022/05/07 01:13:50 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 2    | 2022/05/07 01:13:50 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 2    | 2022/05/07 01:13:50 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 2    | 2022/05/07 01:13:50 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 2    | 2022/05/07 01:13:52 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2022/05/07 01:13:54 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2022/05/07 01:13:54 |  INFO | KahaDB is version 7
+INFO   | jvm 2    | 2022/05/07 01:13:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 2    | 2022/05/07 01:13:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-57343-1651904035003-0:1) is starting
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Connector openwire started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Connector amqp started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Connector stomp started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Connector mqtt started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Starting Jetty server
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Creating Jetty connector
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@781478be{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Connector ws started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-57343-1651904035003-0:1) started
+INFO   | jvm 2    | 2022/05/07 01:13:55 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 2    | 2022/05/07 01:13:58 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 2    | 2022/05/07 01:13:58 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/05/07 01:14:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/05/07 01:14:51 | Launching a JVM...
+INFO   | jvm 1    | 2022/05/07 01:14:52 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/05/07 01:14:52 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/05/07 01:14:52 | 
+INFO   | jvm 1    | 2022/05/07 01:14:52 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 1    | 2022/05/07 01:14:52 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/05/07 01:14:52 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=2WvY4GmHp_PSFgFW -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=20432 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/05/07 01:14:52 | Extensions classpath:
+INFO   | jvm 1    | 2022/05/07 01:14:52 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/05/07 01:14:52 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/05/07 01:14:52 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/05/07 01:14:52 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/05/07 01:14:52 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/05/07 01:14:55 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/05/07 01:14:57 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/05/07 01:14:58 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/05/07 01:14:58 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/05/07 01:14:58 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/05/07 01:14:58 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/05/07 01:14:58 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-57401-1651904098605-0:1) is starting
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@106b347d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-57401-1651904098605-0:1) started
+INFO   | jvm 1    | 2022/05/07 01:14:59 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/05/07 01:15:01 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/05/07 01:15:01 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2022/05/07 01:15:08 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/05/07 02:05:01 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2022/05/07 02:38:01 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/05/07 03:45:03 |  INFO | Connector vm://localhost stopped
+ERROR  | wrapper  | 2022/05/07 07:54:45 | JVM exited unexpectedly.
+STATUS | wrapper  | 2022/05/07 07:56:00 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/05/07 07:56:01 | Launching a JVM...
+INFO   | jvm 1    | 2022/05/07 07:56:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/05/07 07:56:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/05/07 07:56:02 | 
+INFO   | jvm 1    | 2022/05/07 07:56:02 | Java Runtime: Oracle Corporation 17.0.2 C:\Program Files\Java\jdk-17.0.2
+INFO   | jvm 1    | 2022/05/07 07:56:02 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/05/07 07:56:02 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=qkgcqkCk8jbd4h16 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=23164 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/05/07 07:56:02 | Extensions classpath:
+INFO   | jvm 1    | 2022/05/07 07:56:02 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/05/07 07:56:02 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/05/07 07:56:02 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/05/07 07:56:02 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/05/07 07:56:02 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/05/07 07:56:04 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 12
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | PListStore:[C:\Users\Jean Atalaya\Desktop\Sistemas Distribuidos\Proyecto\App\apache-activemq-5.17.0-bin\apache-activemq-5.17.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-59311-1651928166576-0:1) is starting
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Listening for connections at: tcp://DESKTOP-IUBU5VJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Listening for connections at: amqp://DESKTOP-IUBU5VJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/05/07 07:56:06 |  INFO | Listening for connections at: stomp://DESKTOP-IUBU5VJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Listening for connections at: mqtt://DESKTOP-IUBU5VJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@5c143ec4{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Listening for connections at ws://DESKTOP-IUBU5VJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:DESKTOP-IUBU5VJ-59311-1651928166576-0:1) started
+INFO   | jvm 1    | 2022/05/07 07:56:07 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/05/07 07:56:08 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/05/07 07:56:09 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
